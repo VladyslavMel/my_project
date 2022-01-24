@@ -9,12 +9,17 @@ const personalMovieDB = {
 };
 
 const a = prompt('Last watched movie?', ''),
-      b = prompt('How much do you rate it?', ''),
-      c = prompt('Last watched movie?', ''),
-      d = prompt('How much do you rate it?', '');
-
+      b = prompt('How much do you rate it?', '');
+     
 personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+
+const c = prompt('How your favorite actor?', ''),
+      d = prompt('How old is he?', '');
+personalMovieDB.actors[c] = d;
+
+const e = prompt('Do u know genres your film?', ''),
+      f = prompt('Answer: ','');
+personalMovieDB.genres[e] = f;
 
 console.log(personalMovieDB);
 
