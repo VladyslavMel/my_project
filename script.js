@@ -50,6 +50,36 @@ console.log(isChecked || !isClose);
 
 console.log(2 + 2 * 2 !== '6');
 
+if (1) {
+    console.log('Ok!');
+} else {
+    console.log('No!');
+}
 
 
 
+//if (num < 49) {
+//    console.log('Error');
+//} else if (num > 100) {
+//    console.log('Large');
+//} else {
+//    console.log('Ok!');
+//}
+
+//(num === 50) ? console.log('Ok!') : console.log('Error');
+
+const num = 50;
+switch (num) {
+    case 49:
+        console.log('False');
+        break;
+    case 100:
+        console.log('False');
+        break;
+    case 51:
+        console.log('Yes u right!');
+        break;
+    default:
+        console.log('Oops...');
+        break;
+}
