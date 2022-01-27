@@ -50,13 +50,15 @@ console.log(isChecked || !isClose);
 
 console.log(2 + 2 * 2 !== '6');
 
+/////////////////////////////////////////////
+
 if (1) {
     console.log('Ok!');
 } else {
     console.log('No!');
 }
 
-
+///////////////////////////////////////////
 
 //if (num < 49) {
 //    console.log('Error');
